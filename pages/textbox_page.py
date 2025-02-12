@@ -1,8 +1,6 @@
 from pages.base_page import BasePage
 from links import ElementsTabLinks
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from data import UserData
 
 
 class TextBoxPage(BasePage):
