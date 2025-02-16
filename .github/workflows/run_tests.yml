@@ -1,0 +1,25 @@
+name: Automated tests
+
+
+on:
+  workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install Chrome
+        run: sudo apt-get install google-chrome-stable
+      - name: install dependencies
+        run: pip install -r requirements.txt
+      - name: first test
+        run: pytest tests/test_checkbox_page.py::TestCheckBoxPage::test_check_box
+      - name: second test
+        run: pytest tests/test_textbox_page.py::TestTextBoxPage::test_fill_textbox_page_info
