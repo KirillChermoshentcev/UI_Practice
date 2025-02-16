@@ -11,7 +11,5 @@ class TestCheckBoxPage:
         checkbox_page.click_on_random_checkbox()
         input_checkbox = checkbox_page.get_checked_checkboxes()
         output_result = checkbox_page.get_output_result()
-        print(input_checkbox)
-        print(output_result)
         assert input_checkbox == output_result
         

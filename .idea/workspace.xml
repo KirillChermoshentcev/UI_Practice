@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2572e3bf-e678-4b82-bc94-e1c2be6acc65" name="Changes" comment="try_actions" />
+    <list default="true" id="2572e3bf-e678-4b82-bc94-e1c2be6acc65" name="Changes" comment="try_actions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,21 +30,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_check_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_click_on_checkbox.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_textbox_page.TestTextBoxPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_textbox_page.TestTextBoxPage.test_fill_textbox_page_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.debug_file.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.executor": "Run",
+    "Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_check_box.executor": "Run",
+    "Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_click_on_checkbox.executor": "Run",
+    "Python tests.Python tests for test_textbox_page.TestTextBoxPage.executor": "Run",
+    "Python tests.Python tests for test_textbox_page.TestTextBoxPage.test_fill_textbox_page_info.executor": "Run",
+    "Python tests.pytest for test_checkbox_page.TestCheckBoxPage.executor": "Run",
+    "Python.debug_file.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore_missing_gitignore": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests for test_textbox_page.TestTextBoxPage.test_fill_textbox_page_info">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_textbox_page.TestTextBoxPage">
     <configuration name="Python tests for test_checkbox_page.TestCheckBoxPage.test_check_box" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="UI_Practice" />
       <option name="ENV_FILES" value="" />
@@ -103,12 +106,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_checkbox_page.TestCheckBoxPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="UI_Practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_checkbox_page.TestCheckBoxPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_textbox_page.TestTextBoxPage" />
+        <item itemvalue="Python tests.pytest for test_checkbox_page.TestCheckBoxPage" />
         <item itemvalue="Python tests.Python tests for test_textbox_page.TestTextBoxPage.test_fill_textbox_page_info" />
         <item itemvalue="Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_check_box" />
         <item itemvalue="Python tests.Python tests for test_checkbox_page.TestCheckBoxPage.test_click_on_checkbox" />
-        <item itemvalue="Python tests.Python tests for test_textbox_page.TestTextBoxPage" />
       </list>
     </recent_temporary>
   </component>
