@@ -29,8 +29,6 @@ jobs:
       - name: install dependencies
         run: pip install -r requirements.txt
       - name: first test
-        if: "github.event.inputs.deployment_target == 'first_test'"
         run: pytest tests/test_checkbox_page.py::TestCheckBoxPage::test_check_box
       - name: second test
-        if: "github.event.inputs.deployment_target == 'second_test'"
         run: pytest tests/test_textbox_page.py::TestTextBoxPage::test_fill_textbox_page_info
