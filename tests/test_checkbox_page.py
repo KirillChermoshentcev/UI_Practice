@@ -1,5 +1,3 @@
-import time
-
 from conftest import driver
 from pages.checkbox_page import CheckBoxPage
 
