@@ -26,7 +26,6 @@ jobs:
 
   windows_test:
     runs-on: windows-latest
-    needs: ubuntu_test
 
     steps:
         - name: Checkout repository
