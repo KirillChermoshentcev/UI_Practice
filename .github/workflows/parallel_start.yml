@@ -35,7 +35,7 @@ jobs:
           with:
             python-version: "3.12"
         - name: Install Chrome
-          run: sudo apt-get install google-chrome-stable
+          run:  apt-get install google-chrome-stable
         - name: install dependencies
           run: pip install -r requirements.txt
         - name: first test
